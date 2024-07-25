@@ -1,4 +1,35 @@
 @import './variables';
 @import './mixins';
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.App {
+    font-family: "Roboto Condensed", sans-serif;
+
+    h1, h2, .navbar-brand {
+        font-family: "Bebas Neue", sans-serif;
+    }
+
+    h1 {
+        font-size: 7rem;
+
+        @include extralarge {
+            font-size: 5rem;
+        }
+
+        @include large {
+            font-size: 4rem;
+        }
+    }
+
+    h3 {
+        font-size: 3rem;
+
+        @include extralarge {
+            font-size: 2rem;
+        }
+    }
+}
+
+$primary: #712cf9;
 
 @import '~bootstrap/scss/bootstrap.scss';
