@@ -37,8 +37,17 @@
             font-size: 2rem;
         }
     }
+
+    h4 {
+        font-size: 2rem;
+
+        @include extralarge {
+            font-size: 2rem;
+        }
+    }
 }
 
-$primary: #712cf9;
+$primary: #b9b9b9;
+$white: #ffffff;
 
 @import '~bootstrap/scss/bootstrap.scss';

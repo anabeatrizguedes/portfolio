@@ -1,6 +1,5 @@
 import React from 'react';
 import AboutImg from '../assets/images/about-img.jpg';
-import ViewMyWorkBtn from './ViewMyWorkBtn';
 
 function AboutSection() {
     return (
@@ -16,8 +15,6 @@ function AboutSection() {
                         <p className='text-start'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
                         <p className='text-start mb-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-                        <ViewMyWorkBtn />
                     </div>
                 </div>
             </div>
